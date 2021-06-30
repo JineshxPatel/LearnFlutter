@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int days = 1;
+    int days = 2;
     return MaterialApp(
       home: Scaffold(
         drawer: Drawer(),
@@ -14,8 +14,7 @@ class HomePage extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            child: Text(
-                "Welcome to Bossman's first flutter app, This is day $days"),
+            child: Text("Welcome first flutter app, This is day $days"),
           ),
         ),
       ),
