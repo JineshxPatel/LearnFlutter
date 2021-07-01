@@ -7,6 +7,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 2;
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       home: Scaffold(
         drawer: Drawer(),
         appBar: AppBar(
