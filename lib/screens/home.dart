@@ -5,7 +5,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int days = 2;
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.red,
@@ -17,7 +16,11 @@ class HomePage extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            child: Text("Welcome first flutter app, This is day $days"),
+            child: Text(
+              "Hi Bossman",
+              style: TextStyle(
+                  fontSize: 20, fontWeight: FontWeight.bold, color: Colors.red),
+            ),
           ),
         ),
       ),
